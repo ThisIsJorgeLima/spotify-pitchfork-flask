@@ -1,16 +1,17 @@
 # spotify-pitchfork-engine
 
-App here: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
-
 A recommendation engine that takes a user's top 50 most-played Spotify tracks from the past few months
  and recommends a similar music critic to follow.
 
- This Flask app makes a user-authorized call to the Spotify API, interfaces the results
- with a hosted database in real-time, and returns an output. Based on my project [here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
+ This Flask app:
+ 1. Makes a user-authorized call to the Spotify API
+ 2. Interfaces the results with a hosted SQLite database I created of Pitchfork authors and their weighted audio features
+ 3. Returns an output (recommendation)
 
-<i>Tools used: Flask, Bootstrap, HTML, CSS, Python, SQLite</i>
-
+App: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 ![Image](https://github.com/diana-xie/spotify-pitchfork-flask/blob/master/static/frontpage.PNG)
+
+The app is a simplified version of a project in which I use KMeans clustering and various other machine learning toolkits to profile music critics: [Github here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
 
 # how it works
 All music critics are from Pitchfork and drawn from a cleaned and wrangled version of a
