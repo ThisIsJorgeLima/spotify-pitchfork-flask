@@ -8,8 +8,8 @@ A recommendation engine that takes a user's top 50 most-played Spotify tracks fr
  2. Interfaces the results with a hosted SQLite database I created of Pitchfork authors and their weighted audio features
  3. Returns an output (recommendation)
 
-App: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 ![Image](https://github.com/diana-xie/spotify-pitchfork-flask/blob/master/static/frontpage.PNG)
+App: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 
 The app is a simplified version of a project in which I use KMeans clustering and various other machine learning toolkits to profile music critics: [Github here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
 
