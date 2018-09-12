@@ -7,7 +7,7 @@ import numpy as np
 from sqlalchemy import create_engine
 from sklearn import preprocessing
 
-# Workaround to support both python 2 & 3
+# Workaround to support both Python 2 & 3
 try:
     import urllib.request, urllib.error
     import urllib.parse as urllibparse
