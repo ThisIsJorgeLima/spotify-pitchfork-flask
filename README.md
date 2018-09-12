@@ -2,13 +2,11 @@
 
 [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 
-A recommendation engine that takes a user's top 50 most-played tracks from the past few months
- and recommends a music critic to follow.
+A recommendation engine that takes a user's top 50 most-played Spotify tracks from the past few months
+ and recommends a similar music critic to follow.
 
  This Flask app makes a user-authorized call to the Spotify API, interfaces the results
- with a hosted database in real-time, and returns an output.
-
- Based on my project [here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
+ with a hosted database in real-time, and returns an output. Based on my project [here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
 
 <i>Tools used: Flask, Bootstrap, HTML, CSS, Python, SQLite</i>
 
