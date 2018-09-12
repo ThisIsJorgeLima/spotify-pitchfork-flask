@@ -1,0 +1,35 @@
+<!-- http://jinja.pocoo.org/docs/dev/templates/#template-inheritance -->
+{% extends "base.html" %}
+{% block title %}critics aren't dead{% endblock %}
+
+{% block content %}
+    <center>
+    <p><br><br>
+        <h1><b>A Spotify-Pitchfork integrated recommendation engine</b></h1>
+        <h3>In this project, I created an engine to recommend music critics.
+        <br>This is based on the music you listen to on Spotify.</h3>
+    </center>
+    <p>
+
+<style type="text/css">
+    .container.custom-container {
+      padding: 0 100px;
+    }
+</style>
+
+<div class="custom-container container">
+    <p><br>
+    <h3><i><b>Music critics are biased.</b></i></h3> <h4>And it's not a bad thing. These characteristics can be used to profile different types of critics. Perhaps, whether critics are “unbiased” is not even the right question to ask.
+    <br><br><br><i><b><h3>Matching bias between critics and consumers improves music recommendations.</b></i></h3>
+    <h4>Music recommendations - a domain with competition. Music journalism sites such as Pitchfork are facing competition from streaming services such as Spotify, as fast-paced algorithms are replacing slow-paced journalism with instant music recommendations.</h4><br>
+    <h3><b><i>In this project, I profiled Pitchfork critics by their album ratings and these albums' audio features.</i></b></h3>
+    <h4>I used Spotify API's <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">audio features</a> such as 'danceability', 'energy', and 'instrumentalness', weighted by album rating, to profile music critics and predict their ratings.</h4>
+    <p><br></p><h3><b><i>This yielded a proof-of-concept recommendation engine.</i></b></h3>
+    <h4> This engine (on this hosted Flask app) matches a Spotify user to a Pitchfork music critic, based on closest music profiles. Users' audio feature profiles are similarly generated, but instead from their top 50 most-played Spotify tracks from the past few months. </i></b></h3>
+    <p><br>
+    <center><h3>That way, music journalism goes on, and we can still have our music recommendations.
+            <p><br><p><br><br>
+    </div>
+
+
+{% endblock %}

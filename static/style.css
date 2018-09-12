@@ -1,0 +1,43 @@
+.navbar-brand {
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-right: 35px;
+}
+
+.navbar-right {
+    font-family: 'IM Fell DW Pica', sans-serif;
+}
+
+.navbar-default {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-top: 20px;
+    border-width: 25;
+    border-color: #FFFFFF;
+    font-family: 'IM Fell DW Pica', sans-serif;
+}
+
+.navbar-default .navbar-text {
+    color: #00000;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-text {
+    color: #000000;
+}
+
+.container-fluid {
+      margin-left: 0px;
+      margin-right: 0px;
+}
+

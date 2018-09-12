@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<center>
+    <p><br><p>
+    Get a Pitchfork music critic recommendation, <br>based on your top 50 most-played Spotify tracks.
+    <p><br><p>
+    <form action="/go" method="get">
+        <button type="submit" class="btn btn-danger spotify_button" id="" style=""><h4><i class="fab fa-spotify"></i> Get Recommendation</h4></button>
+    </form>
+</center>
+{% endblock %}

@@ -1,0 +1,26 @@
+<!-- http://jinja.pocoo.org/docs/dev/templates/#template-inheritance -->
+{% extends "base.html" %}
+{% block title %}Your most-played Spotify tracks{% endblock %}
+
+{% block content %}
+    <center>
+    <p><br><br>
+        <h3><b>Your recommended music journalist:</b></h3>
+        <p><br>
+        <i>{{best_critic}}</i>
+    <p><br><p><br>
+        <h3><b>Your top-played tracks:</b></h3>
+    <h4>
+    <div class="container">
+        <p><br><p>
+        <ul class="list-unstyled">
+            TRACK NAME  //  ARTIST
+            <p>
+            {% for track in track_list %}
+                <li>{{ track['name'] }} // {{ track['artist'] }}</li>
+            {% endfor %}
+        </ul>
+    <br />
+
+
+{% endblock %}
