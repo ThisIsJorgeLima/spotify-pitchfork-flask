@@ -19,8 +19,6 @@ All music critics are from Pitchfork and drawn from a cleaned and wrangled versi
  which are generated for both critic and user based on Spotify API's
  [audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
 
-![Image](https://github.com/diana-xie/spotify-pitchfork-flask/blob/master/static/results.PNG)
-
 See [here](http://dianaxie.pythonanywhere.com/howitworks) for more details.
 
 # credit
