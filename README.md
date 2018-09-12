@@ -21,7 +21,7 @@ All music critics are from Pitchfork and drawn from a cleaned and wrangled versi
 
 See [here](http://dianaxie.pythonanywhere.com/howitworks) for more details.
 
-## credit
+# credit
 
 This code was based on the following repositories:
  - https://github.com/mari-linhares/spotify-flask - a much-appreciated guide for organizing and coding a Flask app that could
