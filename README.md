@@ -1,6 +1,6 @@
 # spotify-pitchfork-engine
 
-Hosted on PythonAnywhere: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
+[http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 
 A recommendation engine that takes a user's top 50 most-played tracks from the past few months
  and recommends a music critic to follow.
