@@ -12,6 +12,8 @@ A recommendation engine that takes a user's top 50 most-played tracks from the p
 
 <i>Tools used: Flask, Bootstrap, HTML, CSS, Python, SQLite</i>
 
+![Image](https://github.com/diana-xie/spotify-pitchfork-flask/blob/master/static/frontpage.PNG)
+
 # how it works
 All music critics are from Pitchfork and drawn from a cleaned and wrangled version of a
  Kaggle dataset of [Pitchfork reviews from 1999-2017](https://www.kaggle.com/nolanbconaway/pitchfork-data)
