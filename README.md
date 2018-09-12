@@ -10,7 +10,7 @@ A recommendation engine that takes a user's top 50 most-played Spotify tracks fr
 
 ![Image](https://github.com/diana-xie/spotify-pitchfork-flask/blob/master/static/frontpage.PNG)
 
-The app is a simplified version of a project in which I use KMeans clustering and various other machine learning toolkits to profile music critics: [Github here](https://github.com/diana-xie/spotify_pitchfork_recommendations).
+The app is a simplified version of a [project](https://github.com/diana-xie/spotify_pitchfork_recommendations) in which I use KMeans clustering and various other machine learning toolkits to profile music critics.
 
 # how it works
 All music critics are from Pitchfork and drawn from a cleaned and wrangled version of a
