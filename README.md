@@ -1,6 +1,6 @@
 # spotify-pitchfork-engine
 
-App here: [http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
+[http://dianaxie.pythonanywhere.com](http://dianaxie.pythonanywhere.com)
 
 A recommendation engine that takes a user's top 50 most-played Spotify tracks from the past few months
  and recommends a similar music critic to follow.
